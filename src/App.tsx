@@ -18,8 +18,7 @@ const App: React.FC = () => {
   console.log(todos)
   return (
     <div className="App">
-      <header>
-        <div className="heading">Taskify</div>
+        <span className="heading">Taskify</span>
         <InputField 
           todo={todo} 
           setTodo={setTodo}
@@ -29,7 +28,6 @@ const App: React.FC = () => {
           todos={todos} 
           setTodos={setTodos} 
         />
-      </header>
     </div>
   );
 }
